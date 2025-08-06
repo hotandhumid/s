@@ -58,4 +58,24 @@ body {
     margin-top: 2rem;
     cursor: pointer;
   }
-    
+  .s-image-section {
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+  
+  .cool-s {
+    width: 200px;
+    max-width: 80%;
+    filter: drop-shadow(0 5px 10px rgba(0,0,0,0.25));
+    transition: transform 0.4s ease;
+  }
+  
+  .cool-s:hover {
+    transform: scale(1.05) rotate(-1deg);
+  }
+  
+  .caption {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: #333;
+  }
